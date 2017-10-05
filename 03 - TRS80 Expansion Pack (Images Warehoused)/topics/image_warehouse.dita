@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_jhg_yrm_io">
+    <title>Image Warehouse</title>
+    <shortdesc>"Storage" and referencing topic for all images used in the documentation.</shortdesc>
+    <refbody>
+        <section>
+            <p>
+                <table frame="none" id="table_yps_dbo_xz">
+                    <title>Images</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                        <thead>
+                            <row>
+                                <entry>
+                                    <p><ph>Images</ph></p>
+                                </entry>
+                                <entry>
+                                    <p><ph>Description</ph></p>
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row>
+                                <entry><image id="fig1" href="../images/figure_1.jpg"/></entry>
+                                <entry>Fig. 1</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig2" href="../images/figure_2.png"/></entry>
+                                <entry>Power Supplies and Future Expansion PCB Locations</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig3" href="../images/figure_3.png"/></entry>
+                                <entry><ph conkeyref="product_info/peripheral_name"/>, Front
+                                    View—Doors Removed.</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig4" href="../images/figure_4.png"/></entry>
+                                <entry>Front View—Interface Connections</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig5" href="../images/figure_5.png"/></entry>
+                                <entry>Rear View—Interface Connections</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig6" href="../images/figure_6.jpg"/></entry>
+                                <entry>Placement of <ph conkeyref="product_info/peripheral_name"
+                                    /></entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig7a" href="../images/figure_7a.png"/></entry>
+                                <entry>Electrical Connections Block Diagram: <ph
+                                        conkeyref="product_info/computer_name"/> Microcomputer
+                                    System Without <ph conkeyref="product_info/peripheral_name"
+                                    /></entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig7b" href="../images/figure_7b.png"/></entry>
+                                <entry>Electrical Connections Block Diagram<ph
+                                        conkeyref="product_info/computer_name"/> Microcomputer
+                                    System with <ph conkeyref="product_info/peripheral_name"/>
+                                    (maximum system)</entry>
+                            </row>
+                            <row>
+                                <entry><image id="sample_game" href="../images/sample_game.jpg"
+                                    /></entry>
+                                <entry>Sample Game of Random Tic-Tac-Toe</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+
+    </refbody>
+</reference>

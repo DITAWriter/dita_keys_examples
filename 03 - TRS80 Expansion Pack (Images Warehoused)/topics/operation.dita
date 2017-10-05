@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="operation">
+    <title>Operation</title>
+    <shortdesc>How to apply power to the <ph conkeyref="product_info/computer_name"/> <ph conkeyref="product_info/peripheral_name"/>.</shortdesc>
+    <refbody><refsyn>
+        <note>The Power switch is recessed into the front of the <ph conkeyref="product_info/peripheral_name"/> to prevent
+            accidental loss of power. Activate the switch with the eraser-end of a pencil or small
+            tool of similar size.</note>
+        <p>Apply power to the <ph conkeyref="product_info/peripheral_name"/>. Notice that when power is off, the end surface of
+            the switch is white and when power is on, it changes to orange.</p>
+    </refsyn></refbody>
+</reference>

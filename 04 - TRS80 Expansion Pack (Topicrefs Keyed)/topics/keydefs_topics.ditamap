@@ -1,0 +1,27 @@
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Key definitions for all content topics</title>
+  <topicmeta>
+    <shortdesc>These topics have a corresponding key definition which can be used from the parent
+      bookmap. These resource-only key definitions can be used for content references (@conkeyref)
+      or from navigation topicrefs.</shortdesc>
+  </topicmeta>
+  <topicgroup>
+    <keydef keys="capabilities_and_advantages" href="capabilities_and_advantages.dita"/>
+    <keydef keys="conclusion" href="conclusion.dita"/>
+    <keydef keys="connecting_cassette_recorder" href="connecting_cassette_recorder.dita"/>
+    <keydef keys="electrical_connections" href="electrical_connections.dita"/>
+    <keydef keys="error_messages" href="error_messages.dita"/>
+    <keydef keys="error_messages_procedure" href="error_messages_procedure.dita"/>
+    <keydef keys="introduction" href="introduction.dita"/>
+    <keydef keys="limited_warranty" href="limited_warranty.dita"/>
+    <keydef keys="model_II_boot_errors_table" href="model_II_boot_errors_table.dita"/>
+    <keydef keys="operation" href="operation.dita"/>
+    <keydef keys="parts" href="parts.dita"/>
+    <keydef keys="random_tic-tac-toe" href="random_tic-tac-toe.dita"/>
+    <keydef keys="random_tic-tac-toe_code" href="random_tic-tac-toe_code.dita"/>
+    <keydef keys="reference_material" href="reference_material.dita"/>
+    <keydef keys="setting_up" href="setting_up.dita"/>
+    <keydef keys="setting_up_ports" href="setting_up_ports.dita"/>
+  </topicgroup>
+</map>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap>
+    <booktitle>
+        <mainbooktitle><ph conkeyref="product_info/company_name"/> <ph conkeyref="product_info/computer_name"/> <ph conkeyref="product_info/peripheral_name"/>: Operator's Manual</mainbooktitle>
+        <booktitlealt>Operator's Manual Catalog Numbers: 26-1140, 26-1141, 26-1142</booktitlealt>
+    </booktitle>
+    <bookmeta>
+        <searchtitle>A DITA-fied Example of TRS-80 Expansion Interface Manual</searchtitle>
+        <shortdesc>This manual for a long-obsolete computer peripheral is designed to be an example
+            of how to port legacy content to DITA.</shortdesc>
+        <author type="creator">Anonymous</author>
+        <bookrights>
+            <bookowner>
+                <organization>Project Gutenberg</organization>
+            </bookowner>
+        </bookrights>
+    </bookmeta>
+    <frontmatter>
+        <topicref href="topics/limited_warranty.dita"/>
+    </frontmatter>
+    <part keys="Introduction" keyref="introduction">
+        <mapref href="topics/keydefs_topics.ditamap"/> 
+        <topicgroup processing-role="resource-only">
+            <keydef keys="product_info" href="topics/product_info.dita"/>
+            <keydef keys="image_warehouse" href="topics/image_warehouse.dita"/>
+        </topicgroup>
+        <topicref keys="Capabilities-and-Advantages" keyref="capabilities_and_advantages"/>
+        <topicref keys="Setting-Up" keyref="setting_up"/>
+        <topicref keys="Setting-Up-Ports" keyref="setting_up_ports"/>
+        <topicref keys="Electrical-Connections" keyref="electrical_connections"/>
+        <topicref keys="Connecting-Cassette-Recorder" keyref="connecting_cassette_recorder"/>
+        <topicref keys="Operation" keyref="operation"/>
+        <topicref keys="Conclusion" keyref="conclusion"/>
+    </part>
+    <part keys="Reference-Material" keyref="reference_material">
+        <topicref keys="Parts" keyref="parts"/>
+        <topicref keys="Error-Messages" keyref="error_messages"/>
+        <topicref keys="Error-Messages-Procedure" keyref="error_messages_procedure"/>
+        <topicref keys="Model-II-Boot-Errors-Table" keyref="model_II_boot_errors_table"/>
+        <topicref keys="Random-Tic-Tac-Toe" keyref="random_tic-tac-toe"/>
+        <topicref keys="Random-Tic-Tac-Toe-Code" keyref="random_tic-tac-toe_code"/>
+    </part>
+</bookmap>

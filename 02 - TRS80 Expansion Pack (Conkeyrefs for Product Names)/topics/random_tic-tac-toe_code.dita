@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="random_tic_tac_toe_code">
+    <title>Random Tic-Tac-Toe Code</title>
+    <shortdesc>The program code for the Random Tic-Tac-Toe game.</shortdesc>
+    <refbody><refsyn>
+<!-- Don't expect the following to work, as there are likely some OCR scanning errors in the following code -->
+        <codeblock xml:space="preserve">00001 CLS.P RT463, "<ph conkeyref="product_info/company_name"/>'S RANDOM TIC TAC TOE", F X=1TO1500 N X
+00002 CLS.P AT471, "ENTER FIRST NAME ", IN EM J=fi l_l=0 V=6 W=0
+00003 CLS.F Q=1TO20 fl&lt;Q)=0 N Q P AT472, "I M RANDOMIZING"; P RT6, "";
+90004 Q=R (SO F X=11T019 IFROO=0R(X')=iJ G 4
+00005 IFX=19T 8
+00006 IFFKX)=QT 4
+00007 M X
+00008 gos :&lt;:&lt;:&lt;:&lt; gos 10 g 95
+00010 cls.x=41:t=82.f v=3t043.s (x-l, vo s (x, so s (t, v) s ct+1, v&gt; n v
+00020 V=15.Z=31.F X=12T0113.S (X, V).S (X, 2).N X.P RT272, H(ll&gt;;
+60030 F RT293, A(12&gt;; ,P RT311, A(13&gt;,' P RT592, A(14&gt;; . P AT613, RC15':&gt;;
+00040 P AT631, R(16).i P AT912, fl(17&gt;; P RT933, R(18&gt;; P RT951, R(19'&gt;;
+00050 P AT448, "WON"; .P AT512, U; .P AT50S, "LOST".; .P RT572, V.;
+00060 P RT989, "TIED ".; W; P ATO, ""; RET
+80895 IFJ=1J=0 G 7000
+00097 J=l
+00098 P T (22), B*; " SELECT SQUARE "; P ATO, "".; IN Q.P AT0, "";
+00101 IF('Q&gt;0)*(Q&lt;10)T 103
+00102 P "INVALID PLRV"; F T=1TO1000:N T P RTO, " " P RTO, "".; .6 98
+00103 IFA(GX&gt;0T 102
+00104 A(Q&gt;=1 GOS 555 GOS 10 GOS 3333 11=1 S=4 . GOS 666 T=1.G 8888
+08110 S (X-4, V-4&gt; S (X+4, V-4&gt; S (X-3, V-3&gt; S (X+3, V-3&gt; S (X-2, V-20
+00120 S (X+2, V~2) S (X-l, V-l&gt; S (X+l, V-l) S (X, V&gt; S (X-l, V+l) S (X+1,V+1&gt;
+00130 S (X-2, V+20 S (X+2, S'+20 S (X-3., V+3!&gt; S (X+3, V+3) S (X-4, V+4&gt;
+00140 S &lt;X+4, V+4&gt;.G 680
+00199 A(R&gt;=4.P "".P AT0, "".;
+00200 F T=-4T04 S (X+T, V-4.) N T.F T=-3T03 S (X-4, V+T&gt; S (X+4, V+T) N T
+00210 F T=-4T04.S (X+T, V+4,&gt; N T.G 698
+00555 F R=9T01S -1 . A(R+1)=A(R&gt; N R A('1&gt;=A(10:&gt; . RET
+00666 F R=1T09.IF(A(RO=M)+(R(R)=S)Q=R G 1000
+80678 IFA(R)=MT 110
+00680 IFA(R)=ST 199
+00690 N R.RET
+01000 K=20.L=7.F T=1T09 IFQ=A(T+10&gt;X=K.V=L-G 1050
+01010 K=K+42.IFK&gt;104K=20 G 1030
+01020 G 1040
+81030 L=L+16
+01040 N T
+01056 G 670
+03333 R=fl&lt;H&lt;llJ ) B=FKfi&lt;12&gt;&gt; C=Ri'ft&lt;13&gt;&gt; D=fi&lt;ft&lt;14&gt;.&gt; E=fl(H&lt;15V&gt; F=fl':fi&lt;16';
+63334 G=fKfi&lt;'i7&gt;&gt; H=f=l &lt; fi '.' IS &gt; ; I=fKHa9&gt;&gt; RET
+04060 Q=&lt;fl(M.))-T IFG=-2Q=7
+04001 IFQ=-1Q=8
+04002 IFQ=0Q=9
+04003 IFR('Q)=0H(Q)=9 G 8500
+04004 IFM=17N=i:&lt;
+04005 IFM=19I1=17
+04006 IFM=15M=19
+04007 G 4000
+07000 P T (25'. "I M IHJWIMG". P HT0, "". V=U Z=V X=S
+07001 lFfl'20 '=@ft'20 ''=1 M=15 1-2 G 4000
+07010 T=H+B+L IFT=XT 8000
+07779 T=H+D+G 1FT=XT 8U2G
+07780 T=H+E+1 IFT=XT 8060
+07781 T=E:+E+H IFT=XT 8090
+07782 T=C+E+G IFT=XT 8120
+07783 T=C+F + I IFT=XT 8150
+07784 T=D+E+F IFT=XT 8180
+07785 T=G+H+I IFT=XT 8210
+07786 IFV=0V=1 2=1 G 7800
+07787 IFV=1Y=2 X=2 G 7010
+07788 IFV=2V=2 X=8 2=2 G 7800
+07789 IFV=3V=4 X=2 G 7O10
+07790 IFV=4V=5 X=8 2=3 G 7800
+07791 IFV=5V=6 X=2 G 7010
+07792 IFV=6V=7 X=8Z=4 G 7800
+07793 IFV=7V=8 X=2 G 7010
+07799 GOS 8450 M=19 T=2 G 4000
+07800 GOS 555 GOS 3333 G 7010
+08080 IFft=0T 8490
+08010 IFB=0T 8491
+08020 G 8492
+08030 IFfi=0T 8490
+08040 IFD=0T 8493
+08058 G. 8496
+08060 IFfi=0T 8490
+88870 IFE=0T 8494
+08080 G 8498
+08090 IFB=0T 8491
+08100 IFE=0T 8494
+08118 G 849?
+08120 IFC=0T 8492
+88130 IFE=0T 8494
+88140 G 8496
+08150 IFC=0T 8492
+08160 IFF=8T 8495
+08176 G 8498
+08186 IFD=0T 8493
+08190 IFE=0T 8494
+08206 G 8495
+88210 IFG=UT 8496
+0822O IFH=6T 8497
+08230 G 8498
+084O0 H'-fKQi '=9 GOS 8458 G 8500
+88450 S=0 T=9-Z
+08451 GOS 555 3=3+1 IFSfTT 8451
+08452 PET
+88490 0=11 G 840ti
+08491 0=12 i) 8400
+08492 0=11 G 8400
+08493 0-14 f, 8400
+08494 0=15 G 8400
+08495 0=16 G 8400
+08496 i =- 1
+08497 0=18 G 840(1
+08498 0=19 b 84mm
+08500 M=5 S=9 GOS 666 GOS 1-3-3 3.
+08888 .'=12 Z=0
+08900 IF(R+B+C=X:' + (H+D+G=X '-nfl+E+l=X ' + B+E+H=;i &lt; + &gt; C+E+f)=:-. &lt;T 2=1
+68910 if!i:+f+i=;&lt;;+'.p+e+f=:o+&lt;:g+h+i=;&lt;; 'Z=i
+68911 X=3
+08912 IF&lt;R+e+C=XX+(H+D+G=X) + Cfl+E+I=X) + (.B+E+H=X:) + (C+E+G=:OT Z=Z+2
+08913 IFcC+F+I=X» + a'+E+F=X' + fG+H+I=X)2=2+2
+88914 IF2=1T 8930
+08915 IF&lt;&lt;Z=2&gt;+(2=4)&gt;T 8931
+08916 IFCZ=3) + (2=5:&gt;T 10S20
+08920 G 9999
+08930 P RT984, Ei$; " VOU LOSE"; P RIO,""; V=V+1 IN Fit- G 3
+08931 p RT984, B$; " VOU WIN"; P fiTO, ""; U=U+1 IN H* G 2
+09000 1FT=1T 7O00
+09001 G 98
+09999 F Q=1T09 IF&lt;fl(Q)=0)Q=9G 9000
+10010 N Q
+10020 P RT984, "TIE GRME ";B$; P RT0, ""; IN M H=U+1 G 3
+22222 END</codeblock>
+    </refsyn></refbody>
+</reference>

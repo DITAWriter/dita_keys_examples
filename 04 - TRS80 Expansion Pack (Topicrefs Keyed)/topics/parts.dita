@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="parts_list">
+    <title>Parts List</title>
+    <shortdesc>A description of the individual parts and part numbers comprising the <ph conkeyref="product_info/computer_name"/>
+        <ph conkeyref="product_info/peripheral_name"/></shortdesc>
+    <refbody>
+        <refsyn>
+            <table>
+                <tgroup cols="2">
+                    <colspec colname="col1"/>
+                    <colspec colname="col2"/>
+                    <thead>
+                        <row>
+                            <entry>EXPANSION INTERFACE </entry>
+                            <entry># </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Door, Mini-Disk </entry>
+                            <entry>1400212 </entry>
+                        </row>
+                        <row>
+                            <entry>Door, Line Printer </entry>
+                            <entry>1400212 </entry>
+                        </row>
+                        <row>
+                            <entry>Door, Screen Printer </entry>
+                            <entry>1400216 </entry>
+                        </row>
+                        <row>
+                            <entry>Door, Future Expansion Board </entry>
+                            <entry>1400216 </entry>
+                        </row>
+                        <row>
+                            <entry>Hood, Mini-Disk </entry>
+                            <entry>1400213 </entry>
+                        </row>
+                        <row>
+                            <entry>Hood, Line Printer </entry>
+                            <entry>1400213 </entry>
+                        </row>
+                        <row>
+                            <entry>Hood, Screen Printer </entry>
+                            <entry>1400218 </entry>
+                        </row>
+                        <row>
+                            <entry>Hood, Future Expansion Board </entry>
+                            <entry>1400218 </entry>
+                        </row>
+                        <row>
+                            <entry>Hood, <ph conkeyref="product_info/computer_name"/> Microcomputer System </entry>
+                            <entry>1400214 </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <table>
+                <tgroup cols="2">
+                    <colspec colname="col1"/>
+                    <colspec colname="col2"/>
+                    <thead>
+                        <row>
+                            <entry><ph conkeyref="product_info/computer_name"/> MICROCOMPUTER SYSTEM </entry>
+                            <entry># </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Door </entry>
+                            <entry>1400083 </entry>
+                        </row>
+                        <row>
+                            <entry>Hood </entry>
+                            <entry>1400217 </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </refsyn>
+    </refbody>
+</reference>
