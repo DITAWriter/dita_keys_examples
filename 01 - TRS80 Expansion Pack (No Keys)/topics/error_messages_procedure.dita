@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="task_wpz_fhq_kbb">
+    <title>How to Troubleshoot Error Messages</title>
+    <shortdesc>These are steps to follow when your TRS-80 microcomputer displays an error
+        message.</shortdesc>
+    <taskbody>
+        <context>
+            <note>If more than one thing is wrong, the computer might wait until you correct the
+                first error before displaying the second error message.</note>
+            <p>When an error message is displayed:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Try the operation several times.</cmd>
+            </step>
+            <step>
+                <cmd>Look up boot errors and operating system errors in the following tables and
+                    take the recommended actions. See your application program manual for
+                    explanations of application program errors.</cmd>
+            </step>
+            <step>
+                <cmd>Try using other diskettes.</cmd>
+            </step>
+            <step>
+                <cmd>Reset the computer and try the operation again.</cmd>
+            </step>
+            <step>
+                <cmd>Check all the power connections.</cmd>
+            </step>
+            <step>
+                <cmd>Check all interconnections.</cmd>
+            </step>
+            <step>
+                <cmd>Remove all diskettes from drives, turn off the computer, wait 15 seconds, and
+                    turn it on again.</cmd>
+            </step>
+            <step>
+                <cmd>If you tried all these remedies and continue to get an error message, contact a
+                    Radio Shack Service Center.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

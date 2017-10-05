@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="error_messages">
+    <title>Error Messages</title>
+    <shortdesc>The types of error messages you may encounter when using the TRS-80 Expansion
+        Interface along with the TRS-80 microcomputer.</shortdesc>
+    <refbody>
+        <refsyn>
+            <p>There are three kinds of error messages you might get while using your computer:</p>
+            <ul>
+                <li>Boot errors, such as BOOT ERROR DC. See the Boot Errors Table for more
+                    information.</li>
+                <li>Operating system errors, such as ERROR 24 or FILE NOT FOUND. To get a brief
+                    description of a numbered error, type <codeph>ERROR</codeph> followed by the
+                    error number displayed. For example, type:</li>
+            </ul>
+            <p><codeph>ERROR 31 (ENTER)</codeph></p>
+            <p>and your screen shows:</p>
+            <p><codeph>PROGRAM NOT FOUND</codeph></p>
+            <p>For more information see the System Errors Table.</p>
+            <ul>
+                <li>Application program errors: see your application program manual.</li>
+            </ul>
+        </refsyn>
+    </refbody>
+</reference>

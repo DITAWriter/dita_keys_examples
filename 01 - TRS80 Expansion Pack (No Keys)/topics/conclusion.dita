@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="conclusion">
+    <title>Conclusion</title>
+    <shortdesc>Additional information, including block diagram, interface connections, and the
+        suggested placement for the expansion interface.</shortdesc>
+    <refbody>
+        <refsyn>
+            <p>Possibly, you will not need all of the expansion modules that are available but, we
+                have supplied you with Hoods for cable connectors for a complete expansion system.
+                Use the Hoods as illustrated to prevent accidental mismatch between the edge
+                connectors on the PCB and the cable connectors.</p>
+            <p>In the event that you lose a Door or Hood and want to replace it, we have given you a
+                Parts List. You may refer to the Parts List and exploded diagrams to determine its
+                Part Number. You can order replacement parts through your local Radio Shack
+                store.</p>
+            <p>You must have a LEVEL II BASIC TRS-80 Microcomputer to utilize the TRS-80 Expansion
+                Interface, the Line Printer and the Mini-Disk modules. If you have a LEVEL I BASIC
+                machine, it must be modified to accept LEVEL II programs. The Screen Printer is the
+                only expansion module that may be connected directly to the TRS-80 Microcomputer and
+                that will operate with LEVEL I machines.</p>
+            <p>We are continually improving and updating our TRS-80 Microcomputer System. You will
+                be kept informed through our Newsletters (you are on the mailing list), addenda and
+                revisions to the Manual.</p>
+            <fig>
+                <title>Rear View—Interface Connections.</title>
+                <image href="../images/figure_5.png"/>
+            </fig>
+            <fig>
+                <title>Placement of Expansion Interface.</title>
+                <image href="../images/figure_6.jpg"/>
+            </fig>
+            <fig>
+                <title>Electrical Connections Block Diagram: TRS-80 Microcomputer System
+                    Without Expansion Interface.</title>
+                <image href="../images/figure_7a.png"/>
+            </fig>
+            <fig>
+                <title>Electrical Connections Block DiagramTRS-80 Microcomputer System
+                    with Expansion Interface (maximum system).</title>
+                <image href="../images/figure_7b.png"/>
+            </fig>
+        </refsyn>
+    </refbody>
+</reference>
