@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="task_f3n_ggq_kbb">
+    <title>Setting Up the Ports</title>
+    <shortdesc>Describes the process for providing access to the ports for the <ph keyref="computer_name"/> Expansion
+        Interface</shortdesc>
+    <taskbody>
+        <context>
+            <note>The term "port" as used in this manual refers to the openings into which the Cable
+                connectors are inserted to provide an interconnection between the <ph keyref="computer_name"/> and the
+                <ph keyref="peripheral_name"/> modules.</note>
+        </context>
+        <prereq>Install expansion interface DC power supply first.</prereq>
+        <steps>
+            <step>
+                <cmd>To gain access to the future expansion PCB Housing, remove the Expansion Door
+                    from the top left side of the module.</cmd>
+            </step>
+            <step>
+                <cmd>The ports, with the exception of the <ph keyref="peripheral_name"/> port, are also covered
+                    by removable Doors. To remove these Doors, press on the right side of the Door
+                    and it will pivot slightly.</cmd>
+            </step>
+            <step>
+                <cmd>Grasp the left side of the Door and pull out (see the following figure for
+                    locations).</cmd>
+                <info><fig>
+                        <title><ph keyref="peripheral_name"/>, Front View—Doors Removed.</title>
+                        <image href="../images/figure_3.png"/>
+                    </fig>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

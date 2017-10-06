@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="task_exd_n4q_kbb">
+    <title>Connecting the Cassette Recorder Cable</title>
+    <shortdesc>Describes the process for connecting the data cassette recorder cable to the <ph keyref="computer_name"/>
+        <ph keyref="peripheral_name"/>.</shortdesc>
+    <taskbody>
+        <context><p>The interconnect cable for an expansion module is provided with that unit. See
+                Figure 4 for Hood Assembly and Installation.</p><note>A Dummy Plug is provided with
+                your Cassette Recorder. Plug it in to the MIC jack. This Plug disconnects the
+                built-in microphone so it won't pick up sounds while you are loading
+                tapes.</note><note>Your Cassette Recorders may be powered by batteries or from a 120
+                VAC source. Thus, AC power cords are optional.</note>
+        </context>
+        <steps>
+            <step>
+                <cmd>Connect the Cassette Recorder Cable (DIN plug on one end and three plugs on the
+                    other) to the Tape I/O connector that is located on the rear of the Expansion
+                    Interface nearest the Power Cord exits.</cmd>
+                <info><fig>
+                        <title>Front View—Interface Connections.</title>
+                        <image href="../images/figure_4.png"/>
+                    </fig></info>
+            </step>
+            <step>
+                <cmd>Of the three plugs on the other end of the Cable:</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Connect the black plug to the EAR jack on the side of the Cassette
+                            Recorder.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Connect the larger gray plug to the AUX jack.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Connect the smaller gray plug to the REM jack.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Connect the Cassette Recorder Jumper Cable to the center DIN connector on the
+                    rear of the <ph keyref="peripheral_name"/>. Connect the other end to the TAPE connector on
+                    the right rear of the <ph keyref="computer_name"/>.</cmd>
+            </step>
+            <step>
+                <cmd>Connect the Video Cable from the Video Display to the VIDEO connector on the
+                    right rear of the <ph keyref="computer_name"/></cmd>
+            </step>
+            <step>
+                <cmd/>
+            </step>
+        </steps>
+        <postreq><p>The <ph keyref="computer_name"/> <ph keyref="peripheral_name"/> has been designed to support the Video Display
+                module. Set the feet of the Video Display in the recesses in the Power Supply and
+                PCB Housing Doors. </p></postreq>
+    </taskbody>
+</task>

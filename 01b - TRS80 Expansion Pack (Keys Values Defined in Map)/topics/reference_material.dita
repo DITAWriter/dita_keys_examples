@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_b1f_bfs_kbb">
+    <title>Reference Material for the <ph keyref="computer_name"/> <ph keyref="peripheral_name"/></title>
+    <shortdesc>This section provides a parts list, the types of error messages that may be
+        encountered and how to work through them, and a sample game program.</shortdesc>
+    <conbody>
+        <p/>
+    </conbody>
+</concept>

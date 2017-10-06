@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="setting_up">
+    <title>Setting Up the Power Supply</title>
+    <shortdesc>Describes the process for installing and setting up the power supply for the <ph keyref="computer_name"/> expansion module.</shortdesc>
+    <taskbody/>
+    <task id="power_supplies_and_pcb_housing">
+        <title>Power Supplies and PCB Housing</title>
+        <taskbody>
+            <prereq>Remove the Power Supply Door (top right side).</prereq>
+            <steps>
+                <step>
+                    <cmd>First connect one DC power cord (DIN connector) to the Power connector on
+                        the PCB.</cmd>
+                </step>
+                <step>
+                    <cmd>Now install the two DC Power Supplies as illustrated.</cmd><info><fig><title>
+                        Power Supplies and Future Expansion PCB Locations.</title><image
+                        href="../images/figure_2.png"/></fig></info>
+                </step>
+                <step>
+                    <cmd>Route the remaining cords out the rear of the case. Be sure the power cords
+                        are seated in the door cutouts before replacing the Door.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</task>
