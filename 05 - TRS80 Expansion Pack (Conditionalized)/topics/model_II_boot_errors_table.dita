@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="model_ii_boot_errors_table">
+    <title>Model II Boot Errors Table</title>
+    <shortdesc>A list of the boot errors along with an explanation for each, and the recommended
+        course of action to take.</shortdesc>
+    <refbody>
+        <refsyn>
+            <table>
+                <tgroup cols="3">
+                    <colspec colname="col1"/>
+                    <colspec colname="col2"/>
+                    <colspec colname="col3"/>
+                    <thead>
+                        <row>
+                            <entry>Error </entry>
+                            <entry>Message </entry>
+                            <entry>Explanation/Action </entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>BOOT ERROR CK </entry>
+                            <entry>Checksum error -- possibly a defective ROM. </entry>
+                            <entry>Contact RSSC. </entry>
+                        </row>
+                        <row>
+                            <entry>BOOT ERROR CT </entry>
+                            <entry>Defective CTC chip. </entry>
+                            <entry>Contact RSSC. </entry>
+                        </row>
+                        <row>
+                            <entry>BOOT ERROR DC </entry>
+                            <entry>Floppy disk controller error, or Defective diskette or Floppy
+                                disk expansion unit not on, or Defective FDC Chip/Drive. </entry>
+                            <entry>Either try a different diskette, or turn on the floppy disk
+                                expansion unit. If that does not work, contact RSSC. </entry>
+                        </row>
+                        <row>
+                            <entry>BOOT ERROR DM </entry>
+                            <entry>DMA chip failure. </entry>
+                            <entry>DMA chip failure. </entry>
+                        </row>
+                        <row>
+                            <entry>BOOT ERROR D0 </entry>
+                            <entry>Drive not ready, or Improperly inserted diskette, or Defective
+                                diskette, or Defective drive. </entry>
+                            <entry>Try inserting the diskette again and press . If that does not
+                                work, try a different diskette. If that does not work, contact RSSC.
+                            </entry>
+                        </row>
+                        <row>
+                            <entry>BOOT ERROR HA </entry>
+                            <entry>Controller error. Aborted command: Problem during boot-up of hard
+                                disk. </entry>
+                            <entry>Re-initialize the hard disk or contact RSSC. </entry>
+                        </row>
+                        <row>
+                            <entry>BOOT ERROR HC </entry>
+                            <entry>CRC error. Invalid data in data field. </entry>
+                            <entry>Re-initialize the hard disk or contact RSSC. </entry>
+                        </row>
+                        <row>
+                            <entry>BOOT ERROR Z8 </entry>
+                            <entry>Defective CPU. </entry>
+                            <entry>Contact RSSC. </entry>
+                        </row>
+                        <row>
+                            <entry>NOT A SYSTEM DISK </entry>
+                            <entry>Diskette in Drive 0 isn't a TRSDOS-II operating system diskette. </entry>
+                            <entry>Insert a TRSDOS-II operating system diskette into Drive 0.
+                            </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+            <p>RSSC = <ph conkeyref="product_info/company_name"/> Service Center.</p>
+        </refsyn>
+    </refbody>
+</reference>

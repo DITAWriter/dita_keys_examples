@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_jhg_yrm_io">
+    <title>Image Warehouse</title>
+    <shortdesc>"Storage" and referencing topic for all images used in the documentation.</shortdesc>
+    <refbody>
+        <section>
+            <p>
+                <table frame="none" id="table_yps_dbo_xz">
+                    <title>Images</title>
+                    <tgroup cols="2">
+                        <colspec colname="c1" colnum="1" colwidth="1.0*"/>
+                        <colspec colname="c2" colnum="2" colwidth="1.0*"/>
+                        <thead>
+                            <row>
+                                <entry>
+                                    <p><ph>Images</ph></p>
+                                </entry>
+                                <entry>
+                                    <p><ph>Description</ph></p>
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+						<!-- Note that "(TRS-80 Version)" has been inserted instead of the key equivalent on purpose
+							 in order to distinguish things visibly at the code level -->
+                            <row>
+                                <entry><image id="fig1" href="../images_TRS80/figure_1_TRS80.jpg"/></entry>
+                                <entry>Fig. 1 (TRS-80 Version)</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig2" href="../images_TRS80/figure_2_TRS80.png"/></entry>
+                                <entry>Power Supplies and Future Expansion PCB Locations (TRS-80 Version)</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig3" href="../images_TRS80/figure_3_TRS80.png"/></entry>
+                                <entry><ph conkeyref="product_info/peripheral_name"/>, Front
+                                    View—Doors Removed (TRS-80 Version)</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig4" href="../images_TRS80/figure_4_TRS80.png"/></entry>
+                                <entry>Front View—Interface Connections (TRS-80 Version)</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig5" href="../images_TRS80/figure_5_TRS80.png"/></entry>
+                                <entry>Rear View—Interface Connections (TRS-80 Version)</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig6" href="../images_TRS80/figure_6_TRS80.jpg"/></entry>
+                                <entry>Placement of <ph conkeyref="product_info/peripheral_name"
+                                    /> (TRS-80 Version)</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig7a" href="../images_TRS80/figure_7a_TRS80.png"/></entry>
+                                <entry>Electrical Connections Block Diagram: <ph
+                                        conkeyref="product_info/computer_name"/> Microcomputer
+                                    System Without <ph conkeyref="product_info/peripheral_name"
+                                    /> (TRS-80 Version)</entry>
+                            </row>
+                            <row>
+                                <entry><image id="fig7b" href="../images_TRS80/figure_7b_TRS80.png"/></entry>
+                                <entry>Electrical Connections Block Diagram<ph
+                                        conkeyref="product_info/computer_name"/> Microcomputer
+                                    System with <ph conkeyref="product_info/peripheral_name"/>
+                                    (maximum system) (TRS-80 Version)</entry>
+                            </row>
+                            <row>
+                                <entry><image id="sample_game" href="../images_TRS80/sample_game_TRS80.jpg"
+                                    /></entry>
+                                <entry>Sample Game of Random Tic-Tac-Toe (TRS-80 Version)</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+            </p>
+        </section>
+
+    </refbody>
+</reference>
